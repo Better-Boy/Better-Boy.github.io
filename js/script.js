@@ -1,0 +1,1 @@
+$(document).ready(function(e){$(".menuIcon").click(function(e){$(this).toggleClass("fa-times");$(".overlayMenu").toggleClass("menuExpanded");});$(".nav-menu").click(function(e){$(".menuIcon").toggleClass("fa-times");$(".overlayMenu").toggleClass("menuExpanded");});$(".goBack").click(function(e){window.history.back();});});
